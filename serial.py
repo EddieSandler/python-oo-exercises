@@ -23,6 +23,10 @@ class SerialGenerator:
     def __init__(self,start=100):
         self.start=start
 
+    def __repr__(self):
+        return f"SerialGenerator start=100 next=101"
+
+
     '''method to increment co unter at each invocation
     int:
     current_value
